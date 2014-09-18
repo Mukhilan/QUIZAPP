@@ -1,0 +1,124 @@
+.ember-application {
+ 
+ 	position: absolute;
+    width: 1150px;
+    height: 580px;
+    padding: 25px;
+    border: 20px solid navy;
+    margin: 45px;
+    margin-left:110px;
+    margin-top:5px;
+}
+.center
+{
+	background-color: white;
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.Button
+{ 
+    cursor: pointer;
+
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(255,255,255) 0%,
+        rgb(227,227,227) 61%,
+        rgb(255,255,255) 100%
+    );
+}
+
+.timer
+{
+    background-color:#E8E8E8;
+    height:50px;
+    width: 90px;
+    margin-left: 600px;
+}
+
+.boxed {
+    background: white ;
+    font-size: 48px;
+    font-style: oblique;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-left:110px;
+}
+
+.defaultTextBox {
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 220px;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+}
+
+.ipButton1 {
+  padding: 8px 8px 8px 25px;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 #000;
+  background: #dcdcdc url(image/frwd.png) no-repeat scroll 1px center;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 #000;
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin:auto auto;  
+}
+.questions {
+   float:right;
+   width:700px;
+   margin-left:30px;
+   padding: 0px;
+   font-family: "Georgia", Times, serif;
+    font-style: normal;
+    font-size: 22px;
+}
+.messageCheckbox
+{
+ width: 19px;
+  height: 25px;
+  padding: 0 5px 0 0;
+  background: url(image/frwd.png) no-repeat;
+  display: block;
+  clear: left;
+  float: left;
+}
+.ipButton {
+  padding: 8px 8px 8px 25px;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 0 #000;
+  background: #dcdcdc url(image/tick.png) no-repeat scroll 1px center;
+  padding: 10px 15px;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 #000;
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin:auto auto;  
+}
+.nextQuestion {
+    float:left;
+    width:500px;
+    margin-left:30px;
+    padding: 0px;
+    font-family: "Georgia", Times, serif;
+    font-style: normal;
+    font-size: 22px;
+}
